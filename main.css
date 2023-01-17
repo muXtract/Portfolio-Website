@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap');
+#myUl li{
+    
+        margin: 30px;
+        
+
+        position: relative;
+        top: 50px;
+        
+    
+}
+a{
+   
+    color: rgb(212, 97, 212);
+}
+a:hover{
+    color:purple ;
+}
+.sidebar{
+    background-color:black;
+    height: 100vh;
+    width: 11vw;
+}
+*{
+    margin:0;
+    padding :0;
+}
+.kross{
+    margin-left: 120px;
+    border-radius: 20px
+    ;
+}
+.ham{
+    border-radius: 20px;
+}
+.sidebargo{
+    transform: translate(-300px,0px);
+    position: absolute;
+}
+
+.main{
+   
+    width:90vw;
+}
+.container{
+    display: flex ;
+}
+.sidebar nav{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 00;
+    
+    
+}
+.sidebar nav li a{
+    color:rgb(15, 217, 15) ;
+    margin-left: 10px;
+}
+
+.sidebar nav li a:hover{
+    color:white;
+    padding:10px;
+}
+
+
+
+
+
+.info{
+    
+    height: 60vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.devpic img {
+    height: 60vh;
+    background-color: blanchedalmond;
+    
+    
+}
+.devinfo{
+   
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    font-family: 'Source Code Pro ',monospace;
+ 
+}
+.hamburger{
+    
+    cursor: pointer;
+    position: absolute;
+    top: 10;
+    left: 10;
+    
+}
+.about{
+    align-items: center;
+    font-size: 20px;
+ 
+    
+    
+}
+.hello{
+    font-size: 40px;
+    
+    
+
+}
+h1{
+    color: rgb(15, 217, 15) ;
+    font-weight: bold;
+    font-style: oblique ;
+    text-decoration: underline ;
+}
+.name{
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(15, 217, 15);
+}
+.buttons button { 
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 2px;
+    background-color: black;
+    color: rgb(87, 232, 87);
+    
+    
+    font-weight: bold;
+    margin: 10;
+    
+
+}
+.buttons button:hover{
+    background-color: white;
+    color:  rgb(87, 232, 87);
+    cursor: pointer;
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro',monospace ;
+    padding: 10px;
+    
+}
+.contactform{
+    
+    padding: 0 34px;
+   
+
+}
+.contactform  form div{
+    padding:10px 0;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column ;
+    
+
+   
+
+}
+input#name{
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding:5px;
+    width:250px;
+
+
+
+}
+input#eq{
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 5px;
+    height:60px;
+    
+}
+input#clientphone{
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding:5px;
+    width:300px;
+}
+
+#emailHelp{
+    font-size: 20px;
+    color: blueviolet;
+    margin: 0 3px;
+    
+
+
+}
+
+#exampleInputEmail1{
+    border-radius: 5px;
+    padding: 5px;
+    width: 300px;
+    
+}
+button.btn.btn-primary{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 7px;
+    padding:5px
+}
